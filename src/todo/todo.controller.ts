@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
 import { TodoService } from './todo.service';
 
-@Controller('todo')
+@Controller('todos')
 export class TodoController {
 
     constructor(private readonly todoService: TodoService) { }
